@@ -40,8 +40,7 @@ This repository contains the codebase for the Faculty Recruitment Website for II
 ![MYSQL](https://img.shields.io/badge/database-mysql-lightgray.svg?logo=mysql&logoColor=white&style=flat-square) 
 
 - Front End - *HTML, **CSS, **JavaScript*
-- Framewrok - *[Bootstrap](https://getbootstrap.com/)*
-- Back End - *PHP*
+- Back End - *Node.js*
 - Database - *MySql*
 
 
