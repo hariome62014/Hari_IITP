@@ -1,0 +1,133 @@
+
+.signup-container{
+    height: 100%;
+    margin-top: 20px;
+
+
+}
+.signup-form-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* row-gap: 4px; */
+    row-gap: 0;
+}
+.student-clicked{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    height: 2.5rem;
+    /* gap: 0.5rem; */
+    background-color: #2a2828;
+
+    border-radius: 16px;
+    padding: 4px 4px 4px 4px;
+    button{
+        font-size: medium;
+        background-color: #2a2828;
+        border: none;
+        border-radius: 16px;
+        width: 50%;
+        color: rgb(94, 92, 92);
+
+    }
+    .student{
+        color: white;
+        background-color:rgb(20, 24, 28) ;
+    }
+}
+.instructor-clicked{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    height: 2.5rem;
+    /* gap: 0.5rem; */
+    background-color: #2a2828;
+
+    border-radius: 16px;
+    padding: 4px 4px 4px 4px;
+    button{
+        color: rgb(94, 92, 92);
+font-size: medium;
+        background-color: #2a2828;
+        border: none;
+        border-radius: 16px;
+        width: 50%;
+
+    }
+    .instructor{
+        color: white;
+        background-color:rgb(20, 24, 28) ;
+    }
+}
+.firstname-label{
+    width: 100%;
+}
+.lastname-label{
+    width: 100%;
+}
+
+.firstname{
+    font-size: 0.875rem;
+    color: white;
+    margin-bottom: 0.25rem;
+    line-height: 8px;
+}
+
+.firstname-input{
+    background-color: #2a2828;
+    color: white;
+    border-radius: 0.5rem;
+    padding:0 12px 0 12px;
+width: 100%;
+height: 2.5rem;
+border: none;
+font-size: 15px;
+/* font-weight: 600; */
+}
+.stud-instruct{
+    display: flex;
+
+}
+
+.lastname{
+    font-size: 0.875rem;
+    color: white;
+    margin-bottom: 0.25rem;
+    line-height: 8px;
+}
+
+.lastname-input{
+    background-color: #2a2828;
+    color: white;
+    border-radius: 0.5rem;
+    padding:0 12px 0 12px;
+width: 100%;
+height: 2.5rem;
+border: none;
+font-size: 15px;
+/* font-weight: 600; */
+}
+.create-account-btn{
+    margin-top: 1.3rem;
+    height: 2.3rem;
+    background-color: rgb(217, 177, 14);
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.password-container{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    gap: 1.2rem;
+}
+.name{
+    width: 100%;
+
+    display: flex;
+   
+    gap: 1.2rem;
+}
