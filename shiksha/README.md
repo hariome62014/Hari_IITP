@@ -9,13 +9,15 @@ Shiksha is designed to help users build skills for today, tomorrow, and beyond. 
 
 ## Screenshots
 ### Home Page
-![Home Page](screenshots/homepage.png)
+![Home Page](https://github.com/hariome62014/Hari_IITP/blob/main/shiksha/src/assets/Screenshot%202024-05-19%20114947.png)
 
 ### Login Page
-![Login Page](screenshots/loginpage.png)
+![Login Page](https://github.com/hariome62014/Hari_IITP/blob/main/shiksha/src/assets/Screenshot%202024-05-19%20115046.png)
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](https://github.com/hariome62014/Hari_IITP/blob/main/shiksha/src/assets/Screenshot%202024-05-19%20115135.png)
+### Signup Page
+![Dashboard](https://github.com/hariome62014/Hari_IITP/blob/main/shiksha/src/assets/Screenshot%202024-05-19%20123407.png)
 
 ## Installation
 To get a local copy up and running follow these simple steps:
