@@ -8,7 +8,7 @@ Shiksha is a simple educational website built using HTML, CSS, and React.js. The
 
 Shiksha is a simple educational website built using HTML, CSS, and React.js. The current version includes the frontend part, which consists of a homepage, login page, signup page, and dashboard.
 
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+[![Watch the video](https://github.com/hariome62014/Hari_IITP/blob/main/shiksha/src/assets/Screenshot%202024-05-19%20123407.png)](https://youtu.be/vbbDUOP3uCc?si=-ZnQZ3EfQR7Qdkhc)
 
 ### Video Description:
 Here's a video walkthrough of our Shiksha project, showcasing its features and functionalities.
