@@ -46,7 +46,7 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/hariome62014/Shiksha.git
+    git clone https://github.com/hariome62014/Hari_IITP/tree/main/shiksha
     ```
 2. Navigate to the project directory
     ```sh
