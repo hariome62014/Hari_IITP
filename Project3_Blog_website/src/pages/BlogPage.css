@@ -1,0 +1,33 @@
+.related-blogs-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 100vh; */
+    margin: 0 auto;
+    max-width: 585px;
+    /* padding-top: 50px; */
+    margin-top: 70px;
+    margin-bottom: 70px;
+    gap: 1.1rem;
+}
+.back-btn{
+ 
+    button{
+     
+        padding: 5px 8px 5px;
+        background-color: white;
+        border: 1px rgb(182, 176, 176) solid;
+        border-radius: 6px;
+    }
+}
+.blogs-description{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+.releted-blogs{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}

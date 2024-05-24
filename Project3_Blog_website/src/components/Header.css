@@ -1,0 +1,19 @@
+.header{
+   
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 7px 0 7px 0;
+    /* background-color: rgba(240,240,240,0.9); */
+    box-shadow: 1px 1px 5px rgb(110, 108, 108);
+position: fixed;
+top: 0;
+left: 0;
+background-color: white;
+text-decoration: none;
+}
+@media screen and (max-width:400px) {
+   .header{
+    width: 100%;
+   }
+}

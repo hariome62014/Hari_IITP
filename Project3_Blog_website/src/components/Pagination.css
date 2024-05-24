@@ -1,0 +1,35 @@
+.footer{
+    
+   position: fixed;
+   bottom: 0;
+    width: 100vw;
+  background-color: white;
+    padding: 10px 0 10px 0;
+    /* background-color: rgba(240,240,240,0.9); */
+    box-shadow: 0px -1px 0px 0.5px rgb(110, 108, 108);
+    
+}
+footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 600px;
+}
+.page-set-btn{
+    display: flex;
+    gap: 5px;
+    button{
+        padding: 3px;
+        background-color: white;
+        border: solid 1px rgb(182, 176, 176);
+    }
+}
+@media screen and (max-width:400px) {
+    .footer{
+     width: 100%;
+    }
+    footer-content{
+        max-width: 400px;
+        flex-wrap: wrap;
+    }
+ }

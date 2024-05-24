@@ -1,0 +1,72 @@
+/* Your existing styles */
+.titleSent {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: black;
+}
+.no-underline {
+  text-decoration: none;
+}
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 585px;
+  margin-bottom: 70px;
+  gap: 2rem;
+}
+.description {
+  margin-top: 10px;
+}
+.tagged {
+  font-size: 14px;
+  margin-top: 10px;
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+  display: flex;
+  gap: 8px;
+}
+.author-categ {
+  display: flex;
+  gap: 4px;
+}
+.author-categ span {
+  font-style: italic;
+}
+.author-categ p {
+  color: black;
+  font-weight: 600;
+}
+.author-categ-date {
+  margin-top: 8px;
+}
+
+/* New styles for media screening */
+.media-container {
+  width: 100%;
+  max-width: 500px; /* Adjust according to your design */
+  margin-top: 20px;
+}
+.media-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .blog-content {
+    padding: 0 20px; /* Add padding to the sides for smaller screens */
+  }
+  .titleSent {
+    font-size: 1.1rem; /* Decrease font size for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .media-container {
+    max-width: 300px; /* Adjust media container width for smaller screens */
+  }
+}
