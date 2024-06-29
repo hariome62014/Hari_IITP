@@ -27,11 +27,19 @@ This project is intended as a learning tool and can be used as a sample project 
 * **Instructor Dashboard:** Instructors have access to a comprehensive dashboard to view information about their courses, students, and income. The dashboard provides charts and visualizations to present data clearly and intuitively. Instructors can monitor the total number of students enrolled in each course, track course performance, and view their income generated from course sales.
 
 ## Screenshots
+![Screenshot](https://github.com/hariome62014/Hari_IITP/raw/main/CodeCrave/src/assets/Images/Screenshot%202024-06-29%20155746.png)
+![Screenshot](https://github.com/hariome62014/Hari_IITP/raw/main/CodeCrave/src/assets/Images/Screenshot%202024-06-29%20160854.png)
+![Screenshot](https://github.com/hariome62014/Hari_IITP/raw/main/CodeCrave/src/assets/Images/Screenshot%202024-06-29%20160933.png)
+![Screenshot](https://github.com/hariome62014/Hari_IITP/raw/main/CodeCrave/src/assets/Images/Screenshot%202024-06-29%20160522.png)
 
 <details>
   <summary>More screenshots</summary>
-  <!-- Add screenshots here -->
+  
+  ![Screenshot](https://github.com/hariome62014/Hari_IITP/raw/main/CodeCrave/src/assets/Images/Screenshot%202024-06-29%20160704.png)
+  ![Screenshot](https://github.com/hariome62014/Hari_IITP/raw/main/CodeCrave/src/assets/Images/Screenshot%202024-06-29%20160724.png)
+  ![Screenshot](https://github.com/hariome62014/Hari_IITP/raw/main/CodeCrave/src/assets/Images/Screenshot%202024-06-29%20160744.png)
 </details>
+
 
 ## Important
 
