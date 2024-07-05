@@ -49,7 +49,7 @@ This repository contains the codebase for the Faculty Recruitment Website for II
 
 ## Author
 
-|                                                                                         <a><img src="https://github.com/hariome62014/2201AI12_CS260/blob/main/proj1/Database%20Final/public/images/Profile-Photo2-removebg-preview.jpg" width="150px " height="170px" /></a>                                                                                         |
+|                                                                                         <a><img src="https://github.com/hariome62014/Hari_IITP/blob/main/proj1/public/images/Profile-Photo2-removebg-preview.jpg" width="150px " height="170px" /></a>                                                                                         |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                                                                                        *[Hari Om Kumar](https://)*                                                                                                                                        |
 |  |
