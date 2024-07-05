@@ -14,10 +14,10 @@ This repository contains the codebase for the Faculty Recruitment Website for II
 
 ## SnapShots
 
-<img src="https://github.com/hariome62014/Hari_IITP/blob/main/proj1/public/images/Screenshot%202024-05-10%20162307.png" >
+
 
 <img src="https://github.com/hariome62014/Hari_IITP/blob/main/proj1/public/images/Screenshot%202024-05-10%20162341.png" >
-<img src="https://github.com/hariome62014/Hari_IITP/blob/main/proj1/public/images/Screenshot%202024-05-10%20162410.png" >
+
 <img src="https://github.com/hariome62014/Hari_IITP/blob/main/proj1/public/images/Screenshot%202024-05-10%20162436.png" >
 <img src="https://github.com/hariome62014/Hari_IITP/blob/main/proj1/public/images/Screenshot%202024-05-10%20162507.png" >
 <img src="https://github.com/hariome62014/Hari_IITP/blob/main/proj1/public/images/Screenshot%202024-05-10%20162636.png" >
