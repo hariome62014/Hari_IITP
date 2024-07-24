@@ -13,10 +13,10 @@ This project is intended as a learning tool and can be used as a sample project 
 * **Category Filtering:** Filter articles based on different tech categories.
 
 ## Screenshots
-![Screenshot](https://github.com/hariome62014/Hari_IITP/raw/main/CodeCrave/src/assets/Images/Screenshot%202024-06-29%20155746.png)
-![Screenshot](https://github.com/hariome62014/Hari_IITP/raw/main/CodeCrave/src/assets/Images/Screenshot%202024-06-29%20160854.png)
-![Screenshot](https://github.com/hariome62014/Hari_IITP/raw/main/CodeCrave/src/assets/Images/Screenshot%202024-06-29%20160933.png)
-![Screenshot](https://github.com/hariome62014/Hari_IITP/raw/main/CodeCrave/src/assets/Images/Screenshot%202024-06-29%20160522.png)
+![Screenshot](https://github.com/hariome62014/Hari_IITP/blob/main/Project3_Blog_website/public/Screenshot%202024-07-25%20005616.png)
+![Screenshot](https://github.com/hariome62014/Hari_IITP/blob/main/Project3_Blog_website/public/Screenshot%202024-07-25%20005637.png)
+![Screenshot](https://github.com/hariome62014/Hari_IITP/blob/main/Project3_Blog_website/public/Screenshot%202024-07-25%20005654.png)
+![Screenshot](https://github.com/hariome62014/Hari_IITP/blob/main/Project3_Blog_website/public/Screenshot%202024-07-25%20005711.png)
 
 
 
