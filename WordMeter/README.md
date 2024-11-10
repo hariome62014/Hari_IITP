@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# WordMeter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**WordMeter** is a web application that analyzes and displays the most frequently used words on a given webpage. Users simply input a URL and specify the number of top words they want to analyze, and WordMeter will fetch and present the word frequency data in a well-designed interface. This project uses React for the frontend and Express with Cheerio for backend web scraping.
 
-## Available Scripts
+## Table of Contents
+1. [Features](#features)
+2. [Tech Stack](#tech-stack)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [File Structure](#file-structure)
+6. [API Endpoints](#api-endpoints)
+7. [Customization](#customization)
+8. [Contributing](#contributing)
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **URL-based Word Frequency Analysis**: Analyze any web page's text and identify the top `N` most frequent words.
+- **Dark and Light Mode**: Toggle between dark and light modes based on user preference.
+- **CSV Export**: Download the word frequency analysis as a CSV file.
+- **Data Persistence**: URL, top N count, word frequency data, and dark mode preference are stored in `localStorage`.
+- **Error Handling**: User-friendly alerts when URL fetching fails.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+**Frontend**:
+- React with Material UI components for an enhanced UI experience.
+- Axios for HTTP requests.
+- React Icons for theme toggle icons.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Backend**:
+- Node.js and Express for handling API requests.
+- Cheerio for web scraping.
+- Axios for fetching HTML content.
+- `he` for HTML entity decoding.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
+- Node.js (v14 or later)
+- npm (v6 or later)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/WordMeter.git
+   cd WordMeter
+2. **Install dependencies**:
+   ```bash
+   npm install
+3. **Run the backend server**:
+   ```bash
+   node server.js
+The backend server will start on http://localhost:5000.
 
-### `npm run eject`
+4. **Run the frontend server**:
+   ```bash
+   npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The frontend app will open on http://localhost:3000.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
+1. Open the app in your browser at http://localhost:3000.
+2. Enter the URL of the page to analyze and specify the number of top words to retrieve.
+3. Click Analyze to see the word frequency results.
+4. Use the Clear button to reset input fields.
+5. Toggle between light and dark mode by clicking the moon or sun icon.
+6. Download the results as a CSV file by clicking the Download CSV button.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## File Structure
+```plaintext
+WordMeter/
+├── build/                 # Compiled frontend files for production
+├── node_modules/          # Node.js packages
+├── public/                # Public assets for the React frontend
+├── src/                   # Source code for the frontend
+│   ├── App.css            # Styles for the main React component
+│   ├── App.js             # Main React app component
+│   ├── App.test.js        # Tests for the main app component
+│   ├── index.css          # Global styles
+│   ├── index.js           # Main entry point for the React app
+│   ├── logo.svg           # Logo asset
+│   ├── reportWebVitals.js # Performance reporting
+│   ├── setupTests.js      # Test setup configuration
+├── .gitignore             # Files and directories to ignore in Git
+├── package-lock.json      # Locked dependency tree for npm
+├── package.json           # Project metadata and dependencies
+├── README.md              # Project documentation (this file)
+└── server.js              # Backend server code with routes and helper functions
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## API Endpoints
 
-## Learn More
+### `POST /api/words`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Analyzes the frequency of words on a webpage.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **URL**: `/api/words`
+- **Method**: `POST`
+- **Parameters**:
+  - `url` (string): URL of the webpage to analyze.
+  - `topN` (integer): Number of top frequent words to retrieve.
+- **Response**:
+  - `words`: Array of objects containing `word` and `count` properties.
 
-### Code Splitting
+#### Example request:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```json
+{
+  "url": "https://example.com",
+  "topN": 10
+}
+```
 
-### Analyzing the Bundle Size
+## Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Dark Mode**: Modify theme settings in `App.js` to personalize the color scheme.
+- **Stopwords List**: Add or modify words in the stopwords set in `server.js` to filter out additional common words.
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+We welcome contributions to enhance WordMeter! Feel free to open issues or submit pull requests with improvements.
 
-### Advanced Configuration
+## 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Happy analyzing!
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
