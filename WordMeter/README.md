@@ -44,7 +44,7 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/WordMeter.git
+   git clone https://github.com/hariome62014/Hari_IITP.git
    cd WordMeter
 2. **Install dependencies**:
    ```bash
